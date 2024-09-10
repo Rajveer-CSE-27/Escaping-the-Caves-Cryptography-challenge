@@ -22,7 +22,7 @@ Enter -- Enter --- pick --- press c -- press c --  back ---- give --- note down 
 ## Decrypted password
     3608528850368400786036725
 ## Analysis
-We figured out the password using modular arithmetic. 
+I figured out the password using modular arithmetic. 
 <br>p = 19807040628566084398385987581
 
 a_x = 324, x = 11226815350263531814963336315
@@ -55,4 +55,4 @@ v = -139
 
 Now, g = ( ( (y\*inverse(x))^u )  \*  ( (z\*inverse(y))^v )  ) mod p<br>
 g = 192847283928500239481729<br>
-By substituting the value of g in equation 1, equation 2 and equation 3, and solving we get the common value as the password.<br>
+By substituting the value of g in equation 1, equation 2 and equation 3, and solving got the common value as the password.<br>
